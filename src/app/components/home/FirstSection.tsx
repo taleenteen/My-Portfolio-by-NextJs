@@ -15,7 +15,7 @@ const FirstSection: NextPage = () => {
           builders measuring
         </h1>
         <p className="text-white text-lg md:text-xl mb-6">
-          I'm a website developer in the role of frontend developer <br />
+          I&apos;m a website developer in the role of frontend developer <br />
           I build and develop for mobile responsiveness first and <br />
           make for SEO.
         </p>

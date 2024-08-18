@@ -36,7 +36,7 @@ const MyTimeline: NextPage = () => {
               </h2>
               <p className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
                 &quot;Started studying Computer Science at Rangsit University
-                for a bachelor's degree.&quot;
+                for a bachelor&apos;s degree.&quot;
               </p>
             </div>
           </div>
