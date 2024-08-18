@@ -3,6 +3,7 @@ import type { NextPage } from "next";
 import useScrollObserver from "../ScrollObserver";
 import { FaVuejs, FaFigma, FaGithub } from "react-icons/fa";
 import { SiVuetify, SiExpress, SiPostman, SiNuxtdotjs } from "react-icons/si";
+import Image from "next/image";
 
 const MyProjects: NextPage = () => {
   useScrollObserver(".js-show-on-scroll", "animate-fadeIn");
@@ -23,10 +24,10 @@ const MyProjects: NextPage = () => {
             CRUD blog and can upload picture.
           </p>
           <p className="mt-4 text-black">
-            "Handled the frontend by creating the structure and designing the
-            UX/UI, drawing inspiration from other websites. Also created
+            &quot;Handled the frontend by creating the structure and designing
+            the UX/UI, drawing inspiration from other websites. Also created
             middleware files in the Nuxt project to check user states and
-            connect APIs to the backend server."
+            connect APIs to the backend server.&quot;
           </p>
           <h2 className="text-2xl font-bold text-blue3 mt-4">Tools</h2>
           <div className="flex justify-center md:justify-start space-x-4 mt-4 text-3xl text-blue3">
@@ -49,9 +50,11 @@ const MyProjects: NextPage = () => {
         </div>
 
         <div className="md:w-1/2 flex justify-center mt-8 md:mt-0">
-          <img
+          <Image
             src="/assets/projects/News.png"
             alt="Project Image"
+            width={500}
+            height={500}
             className="h-[500px]  object-contain rounded-lg shadow-md"
           />
         </div>
@@ -66,9 +69,9 @@ const MyProjects: NextPage = () => {
             Landing page for game server
           </p>
           <p className="mt-4 text-black">
-            "Worked on an intern project, where I waited for the design team to
-            complete their designs and then implemented them using
-            company-provided themes."
+            &quot;Worked on an intern project, where I waited for the design
+            team to complete their designs and then implemented them using
+            company-provided themes.&quot;
           </p>
           <h2 className="text-2xl font-bold text-blue3 mt-4">Tools</h2>
           <div className="flex justify-center md:justify-start space-x-4 mt-4 text-3xl text-blue3">
@@ -85,9 +88,11 @@ const MyProjects: NextPage = () => {
         </div>
 
         <div className="md:w-1/2 flex justify-center mt-8 md:mt-0 p-4">
-          <img
+          <Image
             src="/assets/projects/Fivem2.png"
             alt="Project FiveM Server"
+            width={500}
+            height={500}
             className="  object-contain rounded-lg shadow-md"
           />
         </div>
@@ -102,10 +107,10 @@ const MyProjects: NextPage = () => {
             Booking and managing for University
           </p>
           <p className="mt-4 text-black">
-            "Worked on real-world projects, designed UX/UI, created smart admin
-            tables for editing information on the website, connected APIs to the
-            backend, and spent some time experimenting with backend coding using
-            Express."
+            &quot;Worked on real-world projects, designed UX/UI, created smart
+            admin tables for editing information on the website, connected APIs
+            to the backend, and spent some time experimenting with backend
+            coding using Express.&quot;
           </p>
           <h2 className="text-2xl font-bold text-blue3 mt-4">Tools</h2>
           <div className="flex justify-center md:justify-start space-x-4 mt-4 text-3xl text-blue3">
@@ -130,9 +135,11 @@ const MyProjects: NextPage = () => {
         </div>
 
         <div className="md:w-1/2 flex justify-center mt-8 md:mt-0">
-          <img
+          <Image
             src="/assets/projects/Fppp.png"
             alt="Project Food process plant pilot"
+            width={500}
+            height={500}
             className="h-[500px] object-contain rounded-lg shadow-md "
           />
         </div>

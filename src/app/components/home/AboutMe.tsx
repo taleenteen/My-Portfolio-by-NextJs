@@ -19,9 +19,9 @@ const AboutMe: NextPage = () => {
         <div className="flex flex-col text-center sm:mt-12 md:mt-2 lg:text-left lg:w-1/2 drop-shadow-2xl">
           <h1 className="text-4xl my-4 font-bold">About Me</h1>
           <p className="text-xl mb-4">
-            "My name is Panuvit Khaoikham. I studied at Rangsit University and
-            am looking to work as a Frontend Developer. I am always learning new
-            techniques for development."
+            &quot;My name is Panuvit Khaoikham. I studied at Rangsit University
+            and am looking to work as a Frontend Developer. I am always learning
+            new techniques for development.&quot;
           </p>
         </div>
       </div>

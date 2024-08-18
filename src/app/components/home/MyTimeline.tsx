@@ -35,8 +35,8 @@ const MyTimeline: NextPage = () => {
                 Studying at Rangsit University
               </h2>
               <p className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
-                "Started studying Computer Science at Rangsit University for a
-                bachelor's degree."
+                &quot;Started studying Computer Science at Rangsit University
+                for a bachelor's degree.&quot;
               </p>
             </div>
           </div>
@@ -53,9 +53,9 @@ const MyTimeline: NextPage = () => {
                 Interned at Grid Consultant
               </h2>
               <p className="text-sm font-medium leading-snug tracking-wide text-white text-opacity-100">
-                "Started an internship at Grid Consultant as a web developer,
-                using Vue and Nuxt frameworks. Spent one month learning Vue and
-                Nuxt before working on a company project."
+                &quot;Started an internship at Grid Consultant as a web
+                developer, using Vue and Nuxt frameworks. Spent one month
+                learning Vue and Nuxt before working on a company project.&quot;
               </p>
             </div>
           </div>
@@ -72,8 +72,8 @@ const MyTimeline: NextPage = () => {
                 Learning React and preparing for work
               </h2>
               <p className="text-sm leading-snug tracking-wide text-gray-900 text-opacity-100">
-                "Self-studying React and reviewing my skills in Vue prepared me
-                for work."
+                &quot;Self-studying React and reviewing my skills in Vue
+                prepared me for work.&quot;
               </p>
             </div>
           </div>

@@ -30,6 +30,10 @@ function Navbar() {
     setIsMenuOpen(!isMenuOpen);
   };
 
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   return (
     <div
       className={`fixed top-0 left-0 w-full bg-blue-500 shadow-2xl transition-transform duration-300 ${
@@ -48,25 +52,33 @@ function Navbar() {
           </button>
         </div>
         <ul
-          className={`lg:flex lg:gap-4 items-center transition-transform duration-300 p-4 ${
+          className={`lg:flex lg:gap-4 items-center transition-transform duration-300 p-4 lg:p-0 ${
             isMenuOpen
-              ? "flex flex-col gap-4 absolute top-full left-0 w-full bg-blue-500 lg:static lg:flex-row lg:gap-4 "
-              : "hidden"
+              ? "flex flex-col lg:flex-row absolute top-full right-0 w-full lg:w-auto bg-blue-500 lg:static"
+              : "hidden lg:flex"
           }`}
         >
-          <li className="text-white hover:text-yellow-400 transition-colors font-bold ">
-            <Link href="#first">Home </Link>
+          <li className="text-white hover:text-yellow-400 transition-colors font-bold">
+            <Link href="#first" onClick={closeMenu}>
+              Home
+            </Link>
           </li>
           <li className="text-white hover:text-yellow-400 transition-colors font-bold">
-            <Link href="#projects">Projects</Link>
+            <Link href="#projects" onClick={closeMenu}>
+              Projects
+            </Link>
           </li>
           <li className="text-white hover:text-yellow-400 transition-colors font-bold">
-            <Link href="#about">About Me</Link>
+            <Link href="#about" onClick={closeMenu}>
+              About Me
+            </Link>
           </li>
           <li className="text-white hover:text-yellow-400 transition-colors font-bold">
-            <Link href="#contact">Contact</Link>
+            <Link href="#contact" onClick={closeMenu}>
+              Contact
+            </Link>
           </li>
-          <ul className="flex gap-4 items-center">
+          <ul className="flex gap-4 items-center mt-4 lg:mt-0">
             <li className="text-white hover:text-yellow-400 transition-colors font-bold">
               <a
                 href="https://www.instagram.com/ptk.t"

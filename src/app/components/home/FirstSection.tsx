@@ -2,6 +2,7 @@
 import type { NextPage } from "next";
 import useScrollObserver from "../ScrollObserver";
 import { FaGithub } from "react-icons/fa";
+import Image from "next/image";
 
 const FirstSection: NextPage = () => {
   useScrollObserver(".js-show-on-scroll", "animate-fadeIn");
@@ -32,10 +33,12 @@ const FirstSection: NextPage = () => {
       </div>
 
       <div className="lg:w-1/2 flex justify-center">
-        <img
+        <Image
           src="https://png.pngtree.com/png-vector/20240309/ourmid/pngtree-developers-are-coding-programs-on-computers-programmers-are-analyzing-data-png-image_11902650.png"
           alt="coding-man"
           className="w-full h-auto"
+          width={500}
+          height={500}
         />
       </div>
     </div>
